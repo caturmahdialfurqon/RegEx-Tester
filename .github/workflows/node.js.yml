@@ -30,7 +30,7 @@ jobs:
     - run: npm run build --if-present
     - run: npm test
 
-            - name: Cache
+- name: Cache
   uses: actions/cache@v4.1.2
   with:
     # A list of files, directories, and wildcard patterns to cache and restore
